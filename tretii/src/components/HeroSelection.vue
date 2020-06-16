@@ -61,14 +61,27 @@
     width: 100%;
     height: 100vh;
     position: relative;
-    background: url("./src/assets/img/hero-bg.jpg") top center;
+    background: url("../../src/assets/img/hero-bg.jpg") top center;
     background-size: cover;
     position: relative;
+  }
+  .justify-content-center {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .text-center {
+    text-align: center !important;
+  }
+  .row {
+    display: flex;
+    flex-direction: row
   }
 
   #hero:before {
     content: "";
-    background: rgba(255, 255, 255, 0.8);
+    background: rgba(255, 255, 255, 0.7);
     position: absolute;
     bottom: 0;
     top: 0;

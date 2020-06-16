@@ -57,6 +57,12 @@
     padding: 15px 0;
     border-bottom: 1px solid #e6f2fb;
   }
+  .container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
 
   #header.header-scrolled {
     border-color: #fff;
@@ -64,9 +70,10 @@
   }
 
   #header .logo {
+    align-self: center;
     font-size: 28px;
     margin: 0;
-    padding: 0;
+    padding: 0 180px 0 180px;
     line-height: 1;
     font-weight: 300;
     letter-spacing: 0.5px;
@@ -75,6 +82,7 @@
 
   #header .logo a {
     color: #16507b;
+    text-decoration: none;
   }
 
   #header .logo img {
@@ -114,6 +122,7 @@
     transition: 0.3s;
     font-size: 14px;
     font-family: "Open Sans", sans-serif;
+    text-decoration: none;
   }
 
   .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
@@ -204,12 +213,15 @@
     background: #2487ce;
     color: #fff;
     border-radius: 5px;
-    padding: 10px 30px 11px 30px;
+    margin-right: 15%;
+    padding: 12px 30px 12px 30px;
     white-space: nowrap;
     transition: 0.3s;
     font-size: 14px;
     font-weight: 600;
     display: inline-block;
+    text-decoration: none;
+    align-self: center;
   }
 
   .get-started-btn:hover {
